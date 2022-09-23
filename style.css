@@ -1,0 +1,189 @@
+.nav{
+    margin: 1%;
+    background-color: rgb(31, 29, 32);
+}
+.nav a{
+    float: left;
+    text-align: center;
+    padding: 14px 16px;
+    font-size: 17px;
+    text-decoration: none;
+    display: inline-block;
+
+}
+.nav a:hover{
+    background-color: aqua;
+    color:black;
+}
+.nav a.active{
+    background-color: goldenrod;
+    color:black;
+}
+.nav{
+    overflow: hidden;
+    background-color: rgb(161, 234, 15);
+    background-color: fixed;
+}
+img{
+    width: 3cm;
+    height: 3cm;
+}
+.nav input[type=text] {
+    padding: 6px;
+    margin-top: 6px;
+}
+.search{
+   float: right;
+   display: inline-block;
+}
+.search button{
+    padding: 2px;
+    float:right ;
+    cursor: pointer;
+    
+}
+.Home-content{
+    padding: 10px;
+}
+.Home-content h1{
+    color:blue;
+}
+.Home-content  img{
+    width: 75%;
+    height: 25%;
+}
+.abs img{
+    width: 35%;
+    height: 10%;
+}
+hr{
+    border-top:2px dashed #f00
+}
+.vic img{
+    width: 35%;
+    height: 10%;
+}
+section{
+    display: block;
+}
+.login{
+    text-align: center;
+    background-color: aquamarine;
+    height: fit-content;
+    padding: 12px;
+    margin: 12px;
+    width: fit-content;
+    border-radius: 75px;
+
+}
+form{
+    margin: 23px;
+    padding: 35px;
+    font-size: medium;
+
+
+}
+input{
+    padding: 6px;
+    margin: 5px;
+    border-radius: 8px;
+    border: burlywood
+
+}
+.Loginbtn{
+    display: block;
+    cursor: pointer;
+    color: black;
+    padding: 6px 10px 6px 10px;
+    border-radius: 5px;
+    border: none;
+    
+}
+.Loginbtn :hover{
+    background-color:grey;
+    transition-duration: 5s;
+}
+* {
+    box-sizing: border-box;
+  }
+  
+  body {
+    margin: 0;
+    font-family: Arial;
+  }
+  
+  /* The grid: Four equal columns that floats next to each other */
+  .column {
+    float: left;
+    width: 25%;
+    padding: 10px;
+  }
+  
+  /* Style the images inside the grid */
+  .column img {
+    opacity: 0.8; 
+    cursor: pointer; 
+  }
+  
+  .column img:hover {
+    opacity: 1;
+  }
+  
+  /* Clear floats after the columns */
+  .row:after {
+    content: "";
+    display: table;
+    clear: both;
+  }
+  
+  /* The expanding image container */
+  .container {
+    position: relative;
+    display: none;
+  }
+  
+  /* Expanding image text */
+  #imgtext {
+    position: absolute;
+    bottom: 15px;
+    left: 15px;
+    color: white;
+    font-size: 20px;
+  }
+  
+  /* Closable button inside the expanded image */
+  .closebtn {
+    position: absolute;
+    top: 10px;
+    right: 15px;
+    color: white;
+    font-size: 35px;
+    cursor: pointer;
+  }
+footer{
+    bottom: 0;
+    text-align: center;
+    background-color: black;
+    color: white;
+    padding : 10px;
+}
+.site_img{
+    border-radius: 250px;
+    padding: 10px;
+}
+.lgin{
+    float: right;
+}
+table{
+    font-family: 'Times New Roman', Times, serif;
+    border-collapse: collapse;
+    width: 85%;
+
+
+
+}
+td,th{
+    background-color: aqua;
+    border: 1px solid black;
+    text-align: center;
+}
